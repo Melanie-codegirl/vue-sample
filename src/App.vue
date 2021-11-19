@@ -3,10 +3,19 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+  <div class="test">Hallo Melanie</div>
   <router-view />
 </template>
 
+<script>
+</script>
+
+
 <style>
+.test {
+  color: red;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
